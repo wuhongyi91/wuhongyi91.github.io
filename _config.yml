@@ -1,0 +1,81 @@
+# Basic
+title: Hongyi Wu
+subtitle: 吴鸿毅
+description: Welcome to my home page
+# 头像里面的标题
+avatarTitle: 吴鸿毅
+# 头像里面的描述
+avatarDesc: wuhongyi@qq.com
+url: "http://wuhongyi.cn"
+
+new_post_name: :title.md # File name of new posts
+
+#用将来的日期发布文章 Future 
+future: true
+
+show_drafts: true       #draft是否可见
+
+
+
+
+# Comment
+comment:
+    #disqus: wuhongyi
+    duoshuo: wuhongyi 
+
+# Social
+social:
+    weibo: wuhongyi 
+    github: wuhongyi
+    # twitter: 
+    mail: wuhongyi@qq.com
+
+# 百度统计 
+# 使用博客模板请去掉或者更换 id 
+baidu:
+    id: 9cebde60386c2011ae1c44bf4c209797  
+
+# Google Analytics
+# 使用博客模板请去掉或者更换 id
+ga:
+    id: UA-86845688-1   
+    host: auto  
+
+
+# 《----------------- 上面的信息修改成你自己的 ---------------------------》
+
+# 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
+
+
+permalink: /blog/:title/
+# Format
+highlighter: rouge
+#highlighter: pygments # default python pygments have been replaced by pygments.rb
+
+markdown_ext:  markdown,mkd,mkdn,md
+
+
+# highlight:
+#   enable: true
+#   line_number: true
+#   auto_detect: true
+#   tab_replace:
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: clear
+
+# The blog button should not be removed.
+blog_button:
+    title: Home
+
+# Navigation buttons in the front page.s
+nav:
+    - {title: Archive, description: archive, url: '/archive'}   
+    - {title: Tags, description: tags, url: '/tags'}      
+    - {title: About, description: about, url: '/about/index'}      
+    
+
+# Pagination ,jekyll-sitemap
+gems: [jekyll-paginate]
+paginate: 20
+paginate_path: "page/:num/"
